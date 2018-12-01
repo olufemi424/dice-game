@@ -2,6 +2,7 @@
   "name": "pig-game",
   "version": "1.0.0",
   "description": "pig game",
+  "main": "index.js",
   "homepage": "https://olufemi424.github.io/dicegame/",
   "scripts": {
     "deploy": "gh-pages -d dist"
@@ -19,10 +20,5 @@
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^2.0.1"
-  },
-  "bugs": {
-    "url": "https://github.com/olufemi424/dice-game/issues"
-  },
-  "main": "app.js",
-  "devDependencies": {}
+  }
 }
