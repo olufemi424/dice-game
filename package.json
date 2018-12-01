@@ -1,0 +1,28 @@
+{
+  "name": "pig-game",
+  "version": "1.0.0",
+  "description": "pig game",
+  "homepage": "https://olufemi424.github.io/dicegame/",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olufemi424/dice-game.git"
+  },
+  "keywords": [
+    "game",
+    "pig",
+    "pig-game"
+  ],
+  "author": "olufemiaf",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/olufemi424/dice-game/issues"
+  },
+  "main": "app.js",
+  "devDependencies": {}
+}

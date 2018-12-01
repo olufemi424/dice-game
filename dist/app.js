@@ -19,8 +19,8 @@ selectQuery(".btn-roll").addEventListener("click", function() {
     selectQuery(".dice").style.display = "block";
     selectQuery(".dice2").style.display = "block";
 
-    diceDOM.src = "/img/dice-" + dice1 + ".png";
-    diceDOM2.src = "/img/dice-" + dice2 + ".png";
+    diceDOM.src = "./img/dice-" + dice1 + ".png";
+    diceDOM2.src = "./img/dice-" + dice2 + ".png";
 
     //set the current value to each dice roll if value not 1
     if (dice1 !== 1 && dice2 !== 1) {
