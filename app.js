@@ -41,8 +41,18 @@ selectQuery(".btn-hold").addEventListener("click", function() {
     //update UI
     getID("score-" + activePlayer).textContent = scores[activePlayer];
 
+    let input = selectQuery(".final-score").value;
+    let winningScore = input;
+
+    //set winning score
+    if (input) {
+      winningScore = input;
+    } else {
+      winningScore = 100;
+    }
+
     //check if player won
-    if (scores[activePlayer] >= 100) {
+    if (scores[activePlayer] >= winningScore) {
       getID("name-" + activePlayer).textContent = "Winner!";
       selectQuery(".dice").style.display = "none";
       selectQuery(".dice2").style.display = "none";

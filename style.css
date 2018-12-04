@@ -81,7 +81,7 @@ body {
 }
 
 .active {
-  background-color: #f7f7f7;
+  background-color: #4caf4f17;
 }
 .active .player-name {
   font-weight: 300;
@@ -163,6 +163,24 @@ i {
 }
 .btn-hold {
   top: 467px;
+}
+
+.final-score {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 520px;
+  color: #555;
+  font-size: 18px;
+  font-family: "lato";
+  text-align: center;
+  padding: 10px;
+  width: 160px;
+  text-transform: uppercase;
+}
+
+.final-score:focus {
+  outline: none;
 }
 
 .dice {
